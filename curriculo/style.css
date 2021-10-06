@@ -1,0 +1,120 @@
+p {
+    text-align: justify;
+}
+body {
+    background-color: white;
+}
+.container-card {
+    padding: 50px 0px 50px 0px;
+    margin-bottom: 2em;
+}
+.img-perfil-card {
+    display: flex;
+    justify-content: center;
+}
+.card-title {
+    font-family: "Poppins";
+}
+.hr {
+    height: 5px;
+    background-color: black;
+    width: 100%;
+}
+.card-image {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 1em;
+}
+.card-perfil {
+    background-color: #54bbf7 !important;
+    box-shadow: 0px 5px 10px #3b3636;
+}
+.botoes-card {
+    display: flex;
+    justify-content: center;
+}
+#btn-sobre {
+    border-radius: 20px;
+    padding: 5px 25px;
+    background-color: black !important;
+    font-weight: 600;
+    border: 2px solid rgb(255, 254, 254);
+    color: white;
+}
+#btn-projetos {
+    border-radius: 20px;
+    border: 2px solid rgb(0, 0, 0) !important;
+    padding: 5px 25px;
+    font-weight: 600px;
+    color: rgb(0, 0, 0) !important;
+}
+.icon-redes-sociais {
+    text-align: center;
+    padding: 10px;
+}
+.title-text {
+    margin: 1em;
+    font-weight: 600;
+}
+.title-subtitle {
+    margin: 1em 0;
+}
+.text {
+    padding: 5px 17px;
+}
+.links-redes-sociais {
+    text-decoration: none;
+}
+.links-redes-sociais {
+    color: black;
+    font-size: 25px;
+    padding: 10px;
+}
+#footer-elementos {
+    display: flex;
+    justify-content: space-between;
+}
+#footer-elementos .email {
+    padding: 15px 0px 15px 0px;
+}
+@media (max-width: 900px) {
+    .container-linear {
+        background: linear-gradient(#fff 60%, to right, black 40%);
+    }
+    .card-col {
+        display: flex;
+        justify-content: flex-end;
+        align-content: center;
+        background-color: rgb(255, 255, 255) !important;
+        box-shadow: -10px, 5px, 10px, 0px, #292a2d;
+    }
+    .card-perfil {
+        background-color: white !important;
+        color: #292a2d;
+        box-shadow: none !important;
+        width: 18em;
+        border: none !important;
+    }
+    .btn-card {
+        color: black !important;
+    }
+    .text-body {
+        box-shadow: none !important;
+    }
+    .text {
+        max-width: 430px;
+        vertical-align: middle;
+        margin-top: 2em;
+    }
+    #footer-elementos {
+        display: flex !important;
+        justify-content: center !important;
+    }
+}
+#texto1{
+    
+}
+#texto2{
+    display: none;
+}
